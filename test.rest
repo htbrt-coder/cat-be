@@ -1,5 +1,5 @@
 ###
-POST http://localhost:3000/users/login
+POST http://localhost/api/users/login
 content-type: application/json
 
 {
@@ -16,3 +16,8 @@ content-type: application/json
     "password": "admin",
     "nama_lengkap": "Ngadimin"
 }
+
+###
+GET http://localhost/api/users/list
+content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwidHlwZSI6ImFkbWluIiwiaWF0IjoxNzYzMzc4ODQwLCJleHAiOjE3NjM0MDA0NDB9.a1PbY1jLsa8aXChZYwdOgMdNcw1Te-VC2D0IXdUglPM
