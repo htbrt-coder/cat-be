@@ -1,0 +1,18 @@
+###
+POST http://localhost:3000/users/login
+content-type: application/json
+
+{
+    "username": "admin",
+    "password": "admin"
+}
+
+###
+POST http://localhost:3000/users/register
+content-type: application/json
+
+{
+    "username": "adminx",
+    "password": "admin",
+    "nama_lengkap": "Ngadimin"
+}
